@@ -1,0 +1,76 @@
+*{ margin: 0%; padding: 0%;}
+.hide{display: none;}
+
+.startScreen{
+ position: absolute;
+ background-color: peru;
+ left: 24%;
+ top: 40%;
+ z-index: 1;
+ text-align: center;
+ border: 2px solid #ff6b;
+ padding: 15px;
+ margin: auto;
+ width: 50%;
+ font-family: fantasy;
+ word-spacing: 2px;
+ font-size: 1.5em;
+ box-shadow: 0 5px 5px #777;
+
+}
+.car{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    bottom: 40px;
+    left: 45%;
+    background-image: url('pngfind.com-red-car-png-1380109.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    background: #2d3436;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-right: 7px dashed #c8d6e5;
+    border-left: 7px dashed #c8d6e5;
+}
+.lines{
+    width: 10px;
+    height: 60px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+}
+.enemy{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    bottom: 40px;
+    left: 45%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.score{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    background: darkorange;
+    width: 300px;
+    line-height: 70px;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+}
+.carGame{
+    width: 100%;
+    height: 100%;
+    background-image: url('abstract-background-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
